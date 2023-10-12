@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "device-manager"
+version = "0.1.0"
+description = ""
+authors = ["Дмитрий di@greentechs.pro>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyserial = "^3.5"
+modbus = "^3.2"
+isort = "^5.12.0"
+flake8 = "^6.1.0"
+pre-commit = "^3.4.0"
+black = "^23.9.1"
+
+[tool.poetry.group.dev.dependencies]
+arduino-python3 = "^0.6"
+black = "^23.9.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
